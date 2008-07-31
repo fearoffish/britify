@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
     lib/britify/command_line_parser/command_line_parser.rb
     lib/britify/translate/translate.rb
     spec/britify/command_line_parser/command_line_parser_spec.rb
-    spec/britify/translate/britify_spec.rb
+    spec/britify/translate/translate_spec.rb
     spec/spec_helper.rb
     tasks/ann.rake
     tasks/bones.rake
