@@ -27,7 +27,7 @@ describe Translate do
     @t.translate( "shut your mouth", :reverse ).should == "shut your gob"
   end
     
-  it "should give a raise an error message if it doesn't have a translation" do
+  it "should raise an error message if it doesn't have a translation" do
     lambda { @t.translate('what the buggering hell') }.should raise_error(RuntimeError)
   end
   
