@@ -1,7 +1,13 @@
 module Britify
   class CommandLineParser
-    def initialize(*args)
-      
+    attr_reader :arguments
+    
+    def initialize(args)
+      @arguments = args.flatten
+    end
+    
+    def words
+      return @arguments
     end
   end
 end
