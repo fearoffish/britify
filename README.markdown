@@ -1,7 +1,6 @@
 # britify
     
-  by Jamie van Dyke
-  http://parfa.it
+  by Jamie van Dyke [http://blog.fearoffish.com/][]
 
 ## DESCRIPTION:
 
