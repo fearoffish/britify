@@ -6,7 +6,11 @@ include Britify
 
 describe CommandLineParser do
   setup do
-    @p = CommandLineParser.new
+    @p = CommandLineParser.new(["some", "commandline", "arguments"])
+  end
+  
+  it "should parse an array and return a string" do
+    @p.words.should == %w{ some commandline arguments }
   end
   
 end
