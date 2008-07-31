@@ -18,7 +18,7 @@ Now, this timeline is roughly accurate bar one major fact.  We're missing:
 
 - Education was neglected, particularly in the spelling and grammar department
 
-The common misconception is that there are two English languages.  Actually, there is on correct language and one mispronounced, incorrectly spelt one.  
+The common misconception is that there are two English languages.  Actually, there is one correct language and one mispronounced, incorrectly spelt one.  
 
 Now, because the US has more nuclear weapons than us Brits, I have also included a yankify binary that will translate from British to Yank.
 
