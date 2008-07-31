@@ -4,29 +4,33 @@ britify
 
 == DESCRIPTION:
 
-FIXME (describe your package)
+=== History
 
-== FEATURES/PROBLEMS:
+A clear language barrier has been evolving between Britain and the US over the years, and this gem hopes to help both sides of this barrier by translating some of the common phrases used on a daily basis by both sides.  Let's look at a timeline to describe the necessity of this gem.
 
-* FIXME (list of features or problems)
+- England rules the waves
+- Some Spanish fella 'discovered' the America's
+- Nuclear weapons were created
+- The US became a super power
+- The US forgot about everyone else
 
-== SYNOPSIS:
+Now, this timeline is roughly accurate bar one major fact.  We're missing:
 
-  FIXME (code sample of usage)
+- Education was neglected, particularly in the spelling and grammar department
 
-== REQUIREMENTS:
+The common misconception is that there are two English languages.  Actually, there is on correct language and one mispronounced, incorrectly spelt one.  
 
-* FIXME (list of requirements)
+Now, because the US has more nuclear weapons than us Brits, I have also included a yankify binary that will translate from British to Yank.
 
 == INSTALL:
 
-* FIXME (sudo gem install, anything else)
+  $ sudo gem install fearoffish-britify --sources=http://gems.github.org
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2008 FIXME (different license?)
+Copyright (c) 2008 Jamie van Dyke (different license?)
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
