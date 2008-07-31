@@ -18,7 +18,7 @@ describe Translate do
     @t.translations.should be_a_kind_of(Hash)
   end
   
-  it "should match up American terms in any case with the English equivalent" do
+  it "should match up American terms in any case with the British equivalent" do
     @t.translate( "shut your gob" ).should == "shut your mouth"
     @t.translate( "POPPET" ).should == "affectionate nickname"
   end
