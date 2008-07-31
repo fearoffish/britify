@@ -30,7 +30,7 @@ Now, because the US has more nuclear weapons than us Brits, I have also included
 
 (The MIT License)
 
-Copyright (c) 2008 Jamie van Dyke (different license?)
+Copyright (c) 2008 Jamie van Dyke
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
