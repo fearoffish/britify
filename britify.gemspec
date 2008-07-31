@@ -1,13 +1,13 @@
 Gem::Specification.new do |s|
-  s.name     = "grit"
-  s.version  = "0.9.1"
-  s.date     = "2008-04-24"
-  s.summary  = "Object model interface to a git repo"
-  s.email    = "tom@rubyisawesome.com"
-  s.homepage = "http://github.com/schacon/grit"
-  s.description = "Grit is a Ruby library for extracting information from a git repository in and object oriented manner."
+  s.name     = "britify"
+  s.version  = "0.0.1"
+  s.date     = "2008-07-31"
+  s.summary  = "British <-> American Translator"
+  s.email    = "jamie@parfa.it"
+  s.homepage = "http://github.com/fearoffish/britify"
+  s.description = "Britify is an amusement project, for translating the differences between British and American slangs."
   s.has_rdoc = true
-  s.authors  = ["Tom Preston-Werner", "Scott Chacon"]
+  s.authors  = ["Jamie van Dyke"]
   s.files    = %w[
     History.txt
     Manifest.txt
@@ -39,6 +39,5 @@ Gem::Specification.new do |s|
     test/test_britify.rb
   ]
   s.rdoc_options = ["--main", "README.txt"]
-  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
-  s.add_dependency("mime-types", ["> 0.0.0"])
+  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.markdown"]
 end
