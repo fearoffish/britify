@@ -11,10 +11,8 @@ module Britify
   
     def translate( string, option = :normal )
       raise ArgumentError unless string.kind_of? String
+      string.gsub!(/'/, '')
       string.gsub!(/\W+/, ' ')
-      %w[ ' ].each do |char|
-        string.gsub!(char, "")
-      end
       string.squeeze!(" ")
       string.strip!
       found = case option
