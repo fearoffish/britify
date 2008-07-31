@@ -1,10 +1,11 @@
-britify
-    by Jamie van Dyke
-    http://parfa.it
+# britify
+    
+  by Jamie van Dyke
+  http://parfa.it
 
-== DESCRIPTION:
+## DESCRIPTION:
 
-=== History
+### History
 
 A clear language barrier has been evolving between Britain and the US over the years, and this gem hopes to help both sides of this barrier by translating some of the common phrases used on a daily basis by both sides.  Let's look at a timeline to describe the necessity of this gem.
 
@@ -22,11 +23,11 @@ The common misconception is that there are two English languages.  Actually, the
 
 Now, because the US has more nuclear weapons than us Brits, I have also included a yankify binary that will translate from British to Yank.
 
-== INSTALL:
+## INSTALL:
 
   $ sudo gem install fearoffish-britify --sources=http://gems.github.org
 
-== LICENSE:
+## LICENSE:
 
 (The MIT License)
 
