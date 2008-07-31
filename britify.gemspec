@@ -36,7 +36,6 @@ Gem::Specification.new do |s|
     tasks/spec.rake
     tasks/svn.rake
     tasks/test.rake
-    test/test_britify.rb
   ]
   s.rdoc_options = ["--main", "README.txt"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.markdown"]
