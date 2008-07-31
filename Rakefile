@@ -10,9 +10,9 @@ require 'britify'
 task :default => 'spec:run'
 
 PROJ.name = 'britify'
-PROJ.authors = 'FIXME (who is writing this software)'
-PROJ.email = 'FIXME (your e-mail)'
-PROJ.url = 'FIXME (project homepage)'
+PROJ.authors = 'Jamie van Dyke'
+PROJ.email = 'jamie@parfa.it'
+PROJ.url = 'http://blog.fearoffish.com/'
 PROJ.rubyforge.name = 'britify'
 
 PROJ.spec.opts << '--color'
