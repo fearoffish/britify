@@ -1,6 +1,6 @@
 # britify
     
-  by Jamie van Dyke [http://blog.fearoffish.com/]()
+by Jamie van Dyke [http://blog.fearoffish.com/]()
 
 ## DESCRIPTION:
 
