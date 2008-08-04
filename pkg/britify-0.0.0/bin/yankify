@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+require File.expand_path(
+    File.join(File.dirname(__FILE__), '..', 'lib', 'britify'))
+
+parser = Britify::CommandLineParser.new(ARGV)
+words = parser.words
+
+if ARGV.empty?
+  puts "Translate British terms into American"
+  puts "  Usage:   yankify british words"
+  exit
+end
+
+begin
+  translator = Britify::Translate.new
+  translation = translator.translate( words.join(" ") )
+  puts "\"#{words.join(" ")}\" => \"#{translation}\""
+rescue
+  puts "On yer bike!  There's nothing like that in American!"
+end
+
+# EOF
