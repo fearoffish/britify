@@ -24,7 +24,7 @@ Now, because the US has more nuclear weapons than us Brits, I have also included
 
 ## INSTALL:
 
-  $ sudo gem install fearoffish-britify --sources=http://gems.github.org
+  $ sudo gem install fearoffish-britify --sources=http://gems.github.com
 
 ## LICENSE:
 

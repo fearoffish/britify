@@ -37,6 +37,7 @@ Gem::Specification.new do |s|
     tasks/svn.rake
     tasks/test.rake
   ]
+  s.executables = ['britify','yankify']
   s.rdoc_options = ["--main", "README.markdown"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.markdown"]
 end
